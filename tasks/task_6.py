@@ -1,6 +1,6 @@
-line = input('Введите строку: ')
+line: str = input('Введите строку: ')
 
-tuple_line = tuple(set(line))
+unique_chars: tuple = tuple(set(line))
 
-print('Уникальные символы:', tuple_line)
-print('Количество уникальных символов:', len(tuple_line))
+print('Уникальные символы:', unique_chars)
+print('Количество уникальных символов:', len(unique_chars))
